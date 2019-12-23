@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Media Query</title>
+	<meta charset="utf-8">
+	<meta nama="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+  box-sizing: border-box;
+  }
+  
+  body{
+  margine:0;
+  }
+  
+  /*style the  header*/
+  .header{
+  background-color: red;
+  padding : 20px;
+  text-align:center;
+  
+  }
+  
+  /* style the top navigation bar*/
+.topnav{
+overflow:hidden;
+background-color: silver;
+}  
+
+/*style the topnav link*/
+.topnav a{
+float  : left;
+display: block;
+color  : red;
+text-align: center;
+padding: 14px 16px;
+text-dectorTION : none;
+}
+
+/*change color on hover*/
+.topnav a:hover{
+background-color: #ddd;
+color: black;
+}
+
+/*create three unequal columns that float next to each other*/
+.column{
+float  : left;
+padding: 10px;
+}
+
+/*left and right column*/
+.column.side{
+width:25%;
+}
+
+/*middle column*/
+.column.middle{
+width:50%;
+}
+
+.row:after{
+content: "";
+display: table;
+clear: both;
+}
+
+/*style the footer*/
+.footer{
+background-color: red;
+padding: 10px;
+text-align: center;
+}
+
+
+@media screen and (max-width: 812px){
+.column.side, .column.middle{
+width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <h1>WEB ANTAR JEMPUT SEKOLAH</h1> <img src="2.jpg" alt="italy" style="width:10%">
+ <p>Memudahkan Anak Anda Pulang Pergi Sekolah.</p>
+ </div>
+ 
+  
+ <div class="row">
+  <div class="column side">
+  <img src="Untitled1.png" alt="italy" style="width:50%">
+  </div>
+ 
+ <div class="column middle">
+ <h2><center>Halaman Detail</h2>
+  <center><img src="" alt="italy" style="width:30%">
+ <p>
+TEMPO.CO, PURWORJO – Aplikasi layanan transportasi online PARAFEL, telah resmi beroperasi di PURWORJO akhir pekan ini INSYA ALLAH. PARAFEL merupakan aplikasi transportasi roda empat/roda dua, yang membidik peluang antar jemput anak sekolah. 
+</p>
+“Aplikasi ini kami buat untuk menjawab problem yang biasa terjadi di kota besar, yakni kemacetan terutama saat jam sekolah dan jam kerja,” ujar Founder PARAFEL Anak Indonesia, perusahaan yang menaungi aplikasi Anatar jemput sekolah,  peluncuran aplikasi itu di PURWOREJ0 Jumat 01 JANIARI 2020.
+</p>
+<p>
+Soal beda aplikasi ini dengan aplikasi ojek online yang sudah ada, Simon menuturkan ada beberapa hal. Pertama, soal safety atau keamanan. Untuk aplkasi Pick Me School semua driver merupakan perempuan, yang sudah lebih dulu dilakukan survey, merupakan warga lokal kota setempat, dan memiliki keluarga di kota bersangkutan.
+</p>
+<p>
+Semua driver sebelum melakukan tugas antar jemput di sekolah diharuskan juga melakukan appointment dulu dengan orang tua dan anak di rumah. Jika tidak cocok dengan driver nya maka bisa dibatalkan pemanfaatan aplikai itu.
+</p>
+<p>
+Adapun aplikasi ini juga mengikuti aturan pemerintah layaknya apliasi ojek online. Yakni maximal kerja 10 jam sehari. “Untuk di sendiri kami hitung waktu kerja cukup 2 jam sehari, karena waktu berangkat kerja/sekolah dan pulang/pergi sekolah saja,” ujarnya.
+</p>
+<p>
+Pemakaian aplikasi ini juga melarang mengemudi sembari memperhatikan global positioning (GPR). Terlebih dengan aplikasi ini hanya di hari awalnya saja kemungkikan butuh GPS dan setelah itu tak perlu lagi karena penumpang nya per bulan sama.
+</p>
+<p>
+Selain itu ada tiga jenis kendaraan yang bisa dipilih sesuai kenyamanan mulai dari vip, regular dan ekonomis. Dan semua penumpang dilindungi asuransi di perjalanannya.</p>
+ </div>
+ 
+ <div class="column side">
+ <img src="4.png" alt="italy" style="width:100%">
+ </div>
+ </div>
+ 
+ <p>
+<center><label><h3><a style="color:red;"><u> Kunjungi Website Kami : </h3></u></a></label>
+<div id="masuk">
+ <td>
+		<p>
+			<a href="https://www.instagram.com/">
+			<input type ="submit"value="INSTAGRAM/PARAFEL.ID"/></a>
+		</p>
+		<p>
+			<a href="https://www.Facebook.com/">
+			<input type ="submit"value="FACEBOOK/PARAFEL@GMAIL.COM "/></a>
+		</p>
+		<p>
+			<a href="https://www.whatshapp.com/">
+			<input type ="submit"value="WHATSHAPP/08539479846 "/></a>
+		</p>
+		
+			
+  <p>
+  <br>
+ <label><a style="color:red;"><u>KRITIK DAN SARAN</a></u></label>
+ <br>
+   <textarea class="contact-form-text" placeholder=""></textarea>
+   </br>
+   
+   <br>
+    <input type="submit" class="contact-form-btn" value="Send">
+ </br>
+ </p>
+
+
+<div class="footer">
+<p>PARAFEL.ID</p> 
+</div>
+
+</body>
+</html>
